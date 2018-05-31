@@ -30,4 +30,9 @@ public class Roll {
     return dice[0] + dice[1];
   }
 
+  @Override
+  public String toString() {
+    return String.format("%d %d", dice[0], dice[1]);
+  }
+
 }
